@@ -1,0 +1,52 @@
+.banner{
+	         	width:900px;
+	         	height:210px;
+	         	margin:10px auto;
+	         	background-color: white;
+	         }
+			 .banner .course{
+			    width:600px;
+	         	height:210px;
+				float:left;
+				position:relative;
+			 }
+	         .banner .courseimg{
+	         	width:100%;
+	         	height:100%;
+	         	
+	         }
+			 .banner .course .course_button{
+			    width:127px;
+				height:19px;
+				
+				position:absolute;
+				left:20px;
+				bottom:10px;
+			 }
+			 .banner .course .course_button ul{
+			  margin:0px;
+			  padding:0px;
+			 }
+			 .banner .course .course_button ul li{
+			   width:12px;
+			   height:12px;
+			   border-radius:50%;
+			   display:inline-block;
+			   
+			   cursor:pointer;
+			   background:#7FD1CB;
+			 }
+			 .banner .course .course_button ul li:hover{
+			  background:#0cf;
+			 }
+			 .banner .banner_right{
+			   width:290px;
+			   height:210px;
+			   float:right;
+
+			 }
+			 .banner .banner_right img{
+			 {
+			  width:290px;
+			  height:100px;
+			 }

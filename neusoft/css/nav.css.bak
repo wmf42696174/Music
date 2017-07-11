@@ -1,0 +1,188 @@
+.box .fen_nav{
+			width:900px;
+			height: 31px;
+			margin:0 auto;
+			background: url(http://www.neusoft.com/cn/newstyle/images/fen_nav.gif) repeat-x;
+		}
+		.box .fen_nav .nav{
+			width:700px;
+			height:30px;
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		.box .fen_nav .nav li{
+			display: inline-block;
+			width:110px;
+			height:30px;
+			font: bold 12px/30px Verdana, Geneva, sans-serif;
+			position:relative;
+		}
+		.box .fen_nav .nav li .abutton{
+			display: block;
+			width: 100%;
+			height: 25px;
+			text-align: center;
+			line-height: 30px;
+			color: #666;
+			border-bottom: 4px solid #666;
+			text-decoration: none;
+		}
+			.box .fen_nav .nav li a.bluebutton{
+			border-bottom: 4px solid #338BDD;
+		}
+		.nav li .dounmenu{
+			position: absolute;
+			top: 30px;
+		}
+		.nav li .dw1{
+			width:615px;
+			height:302px;
+			border-bottom:5px #0188CC solid;
+		  display: none;
+		  background:#fff;
+		  z-index:999;
+			
+		}
+		.nav li.l2:hover .dw1{
+			display: block;
+		}
+		.nav li .dounmenu h2{
+			margin: 0px;
+			padding: 0px;
+			height: 30px;
+			text-indent: 20px;
+			background-color: #F0F0F0;
+			font-size: 12px;
+		}
+		.nav li .dounmenu h2 a{
+			color: #666;
+			text-decoration: none;
+			font-weight: normal;
+		}
+		.nav li .dounmenu h2 a:hover{
+			text-decoration: underline;
+		}
+		/*.nav li .dw1 h2{	
+			margin: 0px;
+			padding: 0px;
+			height: 30px;
+			text-indent: 20px;
+			background-color: #F0F0F0;
+			font-size: 12px;
+			
+		}
+		.nav li .dw1 h2 a{
+			color: #666;
+			text-decoration: none;
+			font-weight: normal;
+		}*/
+		/*.nav li .dw1 h2 a:hover{
+			text-decoration: underline;
+		}*/
+		.nav li .dw1 h3{
+			height: 30px;
+			line-height: 30px;
+			font-size: 12px;
+			color: #38c;
+			text-indent: 20px;
+			background-color: white;
+		}
+		.nav li .dw1 h3 a{
+			color: #38c;
+			text-decoration: none;
+		}
+		.nav li .dw1 h3 a:hover{
+			text-decoration: underline;
+		}
+		.nav li .dw1 .solution_list{
+			width:600px;
+			height:90px;
+			clear: both;
+			
+		}
+		.nav li .dw1 .solution_list ul{
+			float: left;
+			width:190px;
+			line-height: 20px;		
+			border-right: 1px #E0E0E0 solid;
+			margin: 0px;
+			padding: 0px;
+		}
+		.nav li .dw1 .solution_list ul.solution_right{
+			border: none;
+		}
+		.nav li .dw1 .solution_list ul li{
+			height:22px;
+			line-height: 17px;
+			font-size: 12px;
+			
+			background-color: white;
+			font-weight: normal;
+		}
+		.nav li .dw1 .solution_list ul li a{
+			text-decoration: none;
+			color:#555;
+			display: block;
+			width: 100px;
+			height:22px;
+			text-align: center;
+		}
+		.nav li .dw1 .solution_list ul li a:hover{
+			text-decoration: underline;
+		}
+	
+		.nav li .dw2{
+			width:525px;
+			height:330px;
+			border-bottom:5px #0188CC solid;
+			display: none;
+			background:#fff;
+			
+		}
+		.nav li.l3:hover .dw2{
+			display: block;
+		}
+		.nav li .dw2 .product_list{
+			width:525px;
+			height:290px;
+			
+		}
+		.nav li .dw2 .product_list ul li{
+			width:100%;
+			height:22px;
+			line-height: 17px;
+			padding-left: 10px;
+		}
+		.nav li .dw2 .product_list ul li a{
+			color:#666;
+			text-decoration: none;
+			font-weight: normal;
+		}
+		.nav li .dw2 .product_list ul li a:hover{
+			text-decoration: underline;
+		}
+		.nav li .dw2 .product_list .product_left{
+			width:250px;
+			border-right:1px solid #E0E0E0;
+			float: left;
+			line-height: 20px;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+		}
+		.nav li .dw2 .product_list .product_right{
+			width:230px;
+			float: left;
+			line-height: 20px;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+		}
+		.nav li .dw3{
+			width:705px;
+			height:265px;
+			border:1px solid #3388CC;
+			left: -159px;
+			display: none;
+		}
